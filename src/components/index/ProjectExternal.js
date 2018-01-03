@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
 
 const Project = ({ url, title, description }) => (
-  <Link className="link dim black-80" to={url}>
+  <a className="link dim black-80" href={url}>
     <dl className="lh-copy">
       <dt className="fw7">{title}</dt>
       <dd className="black-60 ml0">{description}</dd>
     </dl>
-  </Link>
+  </a>
 );
 
 Project.propTypes = {

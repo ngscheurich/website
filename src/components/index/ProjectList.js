@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import ProjectExternal from "./ProjectExternal";
 
 export default () => (
   <div>
@@ -11,28 +12,28 @@ export default () => (
       description="What my 2017 sounded like, according to Spotify"
     />
 
-    <Project
+    <ProjectExternal
       url="https://github.com/ngscheurich/http_find"
       title="🔎 HTTP Find"
       description="Searches the contents of an HTTP response for a specified term or pattern"
     />
 
-    <Project
+    <ProjectExternal
       url="https://github.com/ngscheurich/generator-phaser-ts"
       title="👾 Phaser + TypeScript Generator"
       description=" Provides a handy jumpstart for a Phaser project with a TypeScript codebase"
     />
 
-    <Project
+    <ProjectExternal
       url="https://github.com/ngscheurich/metallum"
       title="💀 Metallum"
       description="Displays random bands from Encyclopaedia Metallum: The Metal Archive "
     />
 
-    <Project
+    <ProjectExternal
       url="https://github.com/ngscheurich/boxcar"
       title="🚋 Boxcar"
-      description="Opinionated Rails-based CMS stack with modern frontend tooling."
+      description="Opinionated Rails-based CMS stack with modern frontend tooling"
     />
   </div>
 );
