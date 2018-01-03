@@ -10,19 +10,19 @@ export default ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <div className="index flex black-80 w-100 vh-100 fixed">
-      <div className="measure pa5 br b--black-10">
-        <header className="pb3" role="banner">
+    <div className="index black-80 flex-l w-100-l vh-100-l fixed-l">
+      <div className="pa4 pa5-ns bb bb-0-l br-l b--black-10">
+        <header className="measure pb3" role="banner">
           <Bio />
         </header>
 
-        <main role="main">
+        <main className="measure" role="main">
           <ProjectList />
         </main>
       </div>
 
       <div className="flex-auto overflow-y-scroll">
-        <div className="measure-wide pa5">
+        <div className="measure-wide pa4 pa5-ns">
           <BlogPostList posts={posts} />
         </div>
       </div>
