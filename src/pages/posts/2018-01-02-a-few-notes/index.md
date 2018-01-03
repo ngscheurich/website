@@ -1,7 +1,7 @@
 ---
 path: "/journal/a-few-notes"
 date: "2018-02-02"
-title: "A Few Notes Regarding the Music of the Year 2017"
+title: "A Few Notes Regarding the Music of 2017"
 ---
 
 ![Image](valentino-funghi-275990.jpg)
