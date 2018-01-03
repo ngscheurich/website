@@ -3,17 +3,19 @@ import PropTypes from "prop-types";
 
 import pauseButton from "../../static/images/ic_pause_circle_outline_48px.svg";
 
-const trackSize = popularity => (popularity > 50 ? 380 : 180);
+function trackSize(popularity, sizes) {
+  return popularity > 50 ? sizes.large : sizes.small;
+}
 
-const Track = ({ track, flipped, handleClick }) => (
+const Track = ({ track, sizes, flipped, handleClick }) => (
   <div
     className={`track ${flipped ? "track--flipped" : ""}`}
     onClick={() => handleClick(track)}
     style={{
       background: `#0c0c0c center no-repeat url(${pauseButton})`,
       marginBottom: 20,
-      width: trackSize(track.popularity),
-      height: trackSize(track.popularity)
+      width: trackSize(track.popularity, sizes),
+      height: trackSize(track.popularity, sizes)
     }}
   >
     <div
@@ -32,6 +34,8 @@ const Track = ({ track, flipped, handleClick }) => (
 
 Track.propTypes = {
   track: PropTypes.object.isRequired,
+  sizes: PropTypes.object.isRequired,
+  flipped: PropTypes.bool.isRequired,
   handleClick: PropTypes.func.isRequired
 };
 

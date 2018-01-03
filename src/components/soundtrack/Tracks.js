@@ -5,13 +5,20 @@ import Track from "./Track";
 
 import "../../styles/soundtrack.css";
 
-const colWidth =
-  typeof window !== "undefined"
-    ? window.screen.availWidth > 480 ? 180 : 160
-    : 180;
+function sizes() {
+  const screenWidth =
+    typeof window !== "undefined" ? window.screen.availWidth : 0;
+
+  if (screenWidth <= 480) {
+    return { small: 140, large: 300 };
+  } else if (screenWidth <= 768) {
+    return { small: 160, large: 360 };
+  } else {
+    return { small: 180, large: 380 };
+  }
+}
 
 const masonryOptions = {
-  colWidth: colWidth,
   gutter: 20,
   transitionDuration: 0,
   fitWidth: true
@@ -65,6 +72,7 @@ class Tracks extends Component {
             <Track
               key={track.id}
               track={track}
+              sizes={sizes()}
               flipped={flipped}
               handleClick={this.handleTrackClick}
             />
