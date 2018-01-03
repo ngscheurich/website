@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Link from "gatsby-link";
-import Nav from "../components/journal/Nav";
+import Nav from "../components/shared/Nav";
 
 import tachyons from "tachyons";
 import "../styles/journal.css";
@@ -14,10 +14,10 @@ export default function Template({ data }) {
         title={`${post.frontmatter.title} – The Journal of Mr. N. G. Scheurich`}
       />
 
-      <Nav />
+      <Nav border={true} />
 
       <div className="ph3 ph4-ns pv4 pv5-ns">
-        <div className="post__content black-70 measure-wide center">
+        <div className="post__content measure-wide center">
           <h1 className="post__title f3 f1-ns lh-title mt0">
             {post.frontmatter.title}
           </h1>
