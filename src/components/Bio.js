@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => (
   <div itemScope itemType="http://schema.org/Person">
-    <h1 className="f3 fw7 lh-title">
+    <h1 className="mt0 f3 fw7 lh-title">
       <span className="dn" itemProp="givenName">
         Nicholas
       </span>
