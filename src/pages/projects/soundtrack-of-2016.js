@@ -17,7 +17,7 @@ const footerColor = "#447f9e";
 const photogName = "David Grandmougin";
 const photogUrl = "https://unsplash.com/@davidgrdm";
 const title = `Soundtrack of ${year}`;
-const description = `What my ${year} like, according to Spotify`;
+const description = `What my ${year} sounded like, according to Spotify`;
 
 export default () => (
   <div className="soundtrack">
