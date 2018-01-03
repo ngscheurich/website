@@ -5,7 +5,7 @@ import Tracks from "../../components/soundtrack/Tracks";
 import Footer from "../../components/soundtrack/Footer";
 
 import tachyons from "tachyons";
-import bgImage from "../../images/mr-cup-fabien-barral-86068.jpg";
+import bgImage from "../../static/images/mr-cup-fabien-barral-86068.jpg";
 import data from "../../../data/soundtrack-2017.js";
 
 const year = 2017;

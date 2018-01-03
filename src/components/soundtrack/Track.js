@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import pauseButton from "../../images/ic_pause_circle_outline_48px.svg";
+import pauseButton from "../../static/images/ic_pause_circle_outline_48px.svg";
 
 const trackSize = popularity => (popularity > 50 ? 380 : 180);
 

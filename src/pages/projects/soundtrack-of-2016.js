@@ -5,7 +5,7 @@ import Tracks from "../../components/soundtrack/Tracks";
 import Footer from "../../components/soundtrack/Footer";
 
 import tachyons from "tachyons";
-import bgImage from "../../images/david-grandmougin-224019.jpg";
+import bgImage from "../../static/images/david-grandmougin-224019.jpg";
 import data from "../../../data/soundtrack-2016.js";
 
 const year = 2016;
