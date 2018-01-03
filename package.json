@@ -1,0 +1,21 @@
+{
+  "name": "ngscheurich-com",
+  "description": "The personal website of N. G. Scheurich.",
+  "author": "Nicholas Scheurich <ngscheurich@gmail.com>",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "react-helmet": "^5.2.0",
+    "react-masonry-component": "^6.0.2",
+    "tachyons": "^4.9.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
+}

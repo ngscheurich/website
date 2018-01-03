@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Oswald:700");
+
+.aa {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.soundtrack {
+  background-color: rgb(249, 246, 243);
+  font-family: "Anonymous Pro", monospace;
+}
+
+.soundtrack header[role="banner"] {
+  background-image: url("/static/images/records.jpg");
+}
+
+.soundtrack header h1 {
+  font-family: "Oswald";
+}
+
+.soundtrack .track {
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 1s;
+  transform-style: preserve-3d;
+}
+
+.soundtrack .track:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.soundtrack .track__front,
+.soundtrack .track__back {
+  backface-visibility: hidden;
+  position: absolute;
+  transform: rotateX(0);
+  width: 100%;
+  height: 100%;
+}
+
+.soundtrack .track--flipped,
+.soundtrack .track__back {
+  transform: rotateY(180deg);
+}
+
+.soundtrack .track__front {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.soundtrack .track__info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: #0c0c0c;
+  font-size: 1rem;
+  color: #fafafa;
+  padding: 0.5rem;
+  backface-visibility: hidden;
+}
+
+.soundtrack .track__title {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.soundtrack .track__artist {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.soundtrack footer h2 {
+  font-family: "Oswald";
+}
+
+.soundtrack footer .player {
+  width: 100%;
+  height: 220px;
+}
