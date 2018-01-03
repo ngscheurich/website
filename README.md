@@ -16,6 +16,6 @@ Proper description to come. Until then, I make no promises or guarantees.
 
 ## License
 
-All original content is copyright me, Nicholas Scheurich, so don’t
-steal it.  If you’d like to use something you find here, just
-[shoot me an email](mailto:ngscheurich@gmail.com).
+All original content is copyright me, N. G. Scheurich, so don’t
+steal it.  If you’d like to use something you find here, it’s probably
+cool—just [shoot me an email](mailto:ngscheurich@gmail.com).
