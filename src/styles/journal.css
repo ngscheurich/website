@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Manuale:400,400i,700|Playfair+Display:700");
+
+.aa {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.post {
+  background-color: white;
+  font-family: "Manuale", serif;
+}
+
+.post__nav {
+  font-family: "Anonymous Pro", monospace;
+}
+
+.post__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
