@@ -12,7 +12,7 @@ Proper description to come. Until then, I make no promises or guarantees.
 
 * [Gatsby](https://www.gatsbyjs.org/), upon which this site is built
 * [Tachyons](http://tachyons.io/), which is so, so helpful for styling
-* [Nucleo icons](https://nucleoapp.com/premium-icons), from which my favicon was taken ([license](nucleo-standard-license.txt)]
+* [Favicon.io](https://favicon.io/), for making the generation of a favicon hassle-free
 
 ## License
 
