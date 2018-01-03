@@ -12,7 +12,7 @@ const Footer = ({
   <footer style={{ backgroundColor: footerColor }} role="content-info">
     <div className="white aa flex-ns pv5">
       <section className="w-100 w-third-l pl5 pr4">
-        <h2 className="mb0 ttu">What’s this all about?</h2>
+        <h2 className="mb0 ttu display">What’s this all about?</h2>
         <p className="lh-copy measure">
           Presented here are the tracks from my <i>Your Top Songs {year}</i>{" "}
           playlist, which was auto-compiled by Spotify. I’m unsure of the
@@ -24,7 +24,7 @@ const Footer = ({
       </section>
 
       <section className="w-100 w-third-l ph4">
-        <h2 className="mb0 ttu">How was this made?</h2>
+        <h2 className="mb0 ttu display">How was this made?</h2>
         <p className="lh-copy measure">
           I downloaded a <abbr title="JavaScript Object Notation">JSON</abbr>{" "}
           representation of the playlist via Spotify’s Web{" "}
@@ -49,7 +49,7 @@ const Footer = ({
       </section>
 
       <section className="w-100 w-third-l pr5 pl4">
-        <h2 className="mb0 ttu">Can I hear the full playlist?</h2>
+        <h2 className="mb0 ttu display">Can I hear the full playlist?</h2>
         <p>
           I don’t know,{" "}
           <a className="link dim white-80 bb b--white-30" href={playlistUrl}>
@@ -57,7 +57,7 @@ const Footer = ({
           </a>.
         </p>
         <iframe
-          className="player"
+          className="player w-100"
           src={playlistEmbedUrl}
           frameBorder="0"
           allowTransparency="true"
