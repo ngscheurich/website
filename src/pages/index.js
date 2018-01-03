@@ -1,7 +1,7 @@
 import React from "react";
-import Bio from "../components/Bio";
-import ProjectList from "../components/ProjectList";
-import BlogPostList from "../components/BlogPostList";
+import Bio from "../components/index/Bio";
+import ProjectList from "../components/index/ProjectList";
+import BlogPostList from "../components/index/PostSummaryList";
 
 import tachyons from "tachyons";
 import "../styles/index.css";
