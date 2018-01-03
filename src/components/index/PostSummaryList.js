@@ -5,7 +5,7 @@ import PostSummary from "./PostSummary";
 
 const PostSummaryList = ({ posts }) => (
   <section>
-    <h1 className="dib pb1 bb b--black-80 ht1 hb0 f6 tracked ttu">
+    <h1 className="dib pb1 bb b--black-80 mv0 f6 tracked ttu">
       From the Journal
     </h1>
     {posts
