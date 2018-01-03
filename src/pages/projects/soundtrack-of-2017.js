@@ -24,10 +24,7 @@ export default () => (
     <Helmet
       title={title}
       meta={[
-        {
-          name: "description",
-          content: description
-        },
+        { name: "description", content: description },
         {
           name: "og:url",
           content: `https://www.ngscheurich.com/soundtrack-of-${year}`
