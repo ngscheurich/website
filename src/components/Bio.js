@@ -10,11 +10,10 @@ export default () => (
       <span itemProp="familyName">Scheurich</span>
     </h1>
 
-    <div className="lh-copy">
-      <p className="mv0">Software developer by day.</p>
-      <p className="mv0">Game designer by night.</p>
-      <p className="mv0">Always up for an adventure.</p>
-    </div>
+    <p className="lh-copy mv0">
+      Scholar of arcane mysteries such as computer programming, game design, and
+      the Vim text editor.
+    </p>
 
     <ul className="list pl0 flex">
       <li className="mr3">
