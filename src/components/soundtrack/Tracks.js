@@ -5,8 +5,13 @@ import Track from "./Track";
 
 import "../../styles/soundtrack.css";
 
+const colWidth =
+  typeof window !== "undefined"
+    ? window.screen.availWidth > 480 ? 180 : 160
+    : 180;
+
 const masonryOptions = {
-  colWidth: window.screen.availWidth > 480 ? 180 : 160,
+  colWidth: colWidth,
   gutter: 20,
   transitionDuration: 0,
   fitWidth: true
@@ -19,8 +24,6 @@ class Tracks extends Component {
     this.state = {
       currentTrack: {}
     };
-
-    this.audio = document.createElement("audio");
 
     this.handleTrackClick = this.handleTrackClick.bind(this);
     this.startPlayback = this.startPlayback.bind(this);
@@ -46,6 +49,10 @@ class Tracks extends Component {
 
   stopPlayback() {
     this.audio.pause();
+  }
+
+  componentDidMount() {
+    this.audio = document.createElement("audio");
   }
 
   render() {
