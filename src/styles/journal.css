@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Manuale:400,400i,700|Playfair+Display:700");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Alegreya:400,400i,700|Playfair+Display:700");
 
 .aa {
   -webkit-font-smoothing: antialiased;
@@ -7,7 +7,7 @@
 
 .post {
   background-color: white;
-  font-family: "Manuale", serif;
+  font-family: "Alegreya", serif;
 }
 
 .post__nav {
