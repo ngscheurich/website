@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Nav from "../../components/shared/Nav";
 import Header from "../../components/soundtrack/Header";
 import Tracks from "../../components/soundtrack/Tracks";
 import Footer from "../../components/soundtrack/Footer";
@@ -34,6 +35,8 @@ export default () => (
         { name: "og:image", content: bgImage }
       ]}
     />
+
+    <Nav style="dark" />
 
     <Header year={year} bgImage={bgImage} />
 
