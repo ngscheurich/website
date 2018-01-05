@@ -2,6 +2,7 @@
 path: "/journal/a-few-notes"
 date: "2018-01-05"
 title: "A Few Notes Regarding the Music of 2017"
+description: "The importance of protest songs and my top music of the year"
 ---
 
 <figure>

@@ -8,10 +8,15 @@ import "../styles/journal.css";
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
+
   return (
     <div className="post black-80">
       <Helmet
         title={`${post.frontmatter.title} – The Journal of Mr. N. G. Scheurich`}
+        meta={[
+          { name: "og:title", content: post.frontmatter.title },
+          { name: "og:description", content: post.frontmatter.description }
+        ]}
       />
 
       <Nav border={true} />
@@ -39,6 +44,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        description
       }
     }
   }
