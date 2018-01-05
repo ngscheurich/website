@@ -17,7 +17,10 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-remark-copy-linked-files",
-          { resolve: "gatsby-remark-images", options: { maxWidth: 600 } }
+          {
+            resolve: "gatsby-remark-images",
+            options: { maxWidth: 640, linkImagesToOriginal: false }
+          }
         ]
       }
     }
