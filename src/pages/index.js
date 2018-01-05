@@ -8,6 +8,9 @@ import tachyons from "tachyons";
 import "../styles/index.css";
 import avatar from "../static/images/avatar.png";
 
+const description = `Scholar of arcane mysteries such as computer programming,
+   game design, and the Vim text editor.`;
+
 export default ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
@@ -17,7 +20,6 @@ export default ({ data }) => {
         meta={[
           { name: "description", content: description },
           { name: "og:url", content: `https://www.ngscheurich.com/` },
-          { name: "og:title", content: title },
           { name: "og:description", content: description },
           { name: "og:image", content: avatar }
         ]}
