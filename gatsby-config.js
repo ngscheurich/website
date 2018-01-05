@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/pages/posts`,
-        name: "pages"
+        path: `${__dirname}/src/posts`,
+        name: "posts"
       }
     },
     {
@@ -22,6 +22,12 @@ module.exports = {
             options: { maxWidth: 640, linkImagesToOriginal: false }
           }
         ]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-31062667-5"
       }
     }
   ]
