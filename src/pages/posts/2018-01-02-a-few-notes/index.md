@@ -1,17 +1,38 @@
 ---
 path: "/journal/a-few-notes"
-date: "2018-02-02"
+date: "2018-01-05"
 title: "A Few Notes Regarding the Music of 2017"
 ---
 
-![Image](valentino-funghi-275990.jpg)
+<figure>
+  <img src="valentino-funghi-275990.jpg" alt="Records" />
+  <figcaption>Photo by Valentino Funghi on Unsplash</figcaption>
+</figure>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin lacinia tincidunt. Aliquam blandit turpis vel elit tincidunt blandit. Donec suscipit lacus a laoreet rhoncus. Sed molestie ipsum eu mattis efficitur. Morbi non tincidunt sapien. Maecenas mollis tellus ac nulla aliquam porta. Mauris facilisis sapien ut purus maximus, a gravida nunc blandit.
+Protest songs have been around since the birth of our nation, and well before that. It seems that any period of great political or cultural injustice goes hand-in-hand with critical, thought-provoking art, and musicians seem especially inclined to turn to their craft as an outlet for feelings of outrage, hope, and commiseration.
 
-Nam feugiat sed libero vitae rhoncus. Maecenas ex velit, suscipit sed quam non, viverra fermentum lacus. Quisque ut condimentum odio, vitae iaculis leo. Phasellus sed augue eu neque tristique sollicitudin ac ullamcorper elit. Cras dapibus mattis odio, quis sollicitudin justo interdum sit amet. Nulla facilisi. In in nibh vel purus vehicula ultrices. Cras congue lectus velit, in ornare diam accumsan a. Nam elementum, sem nec eleifend efficitur, velit lectus ullamcorper augue, id imperdiet massa magna sit amet dui. Cras pellentesque nec elit vel facilisis. Sed tincidunt fermentum fermentum. Aenean quis mauris mollis ipsum dapibus facilisis.
+It’s no great secret that, in terms of great political and cultural injustice, 2017 was a *doozy*. Unsurprisingly, it was also no slouch in generating its fair share of protest art.
 
-Sed eget est feugiat, lacinia velit ac, viverra nisl. Aliquam varius venenatis tincidunt. Duis sit amet odio nisl. Duis dui sapien, interdum sed pretium ac, elementum ornare ligula. Nullam molestie, mi id sodales gravida, massa tortor blandit elit, vel tristique mauris odio vehicula mi. Phasellus vitae faucibus urna. Praesent vel magna malesuada, euismod massa et, euismod erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquet placerat purus sed pellentesque. Proin congue massa sed nulla finibus, vel volutpat urna tincidunt. Cras malesuada ipsum ut lacus dignissim, ac sollicitudin magna suscipit. Ut vel libero eget velit aliquam efficitur eu sit amet nibh.
+Vox published a [good read](https://www.vox.com/culture/2017/4/12/14462948/protest-music-history-america-trump-beyonce-dylan-misty) with an accompanying [playlist](https://open.spotify.com/user/1299027248/playlist/1vgS61p88rclNTcPxPP6iF) if you need a primer on the topic of protest songs, but I’ll bet you’re familiar with at least of few the names that typically emerge when discussing the topic: Billie Holiday, Woody Guthrie, Bob Dylan, N.W.A, Neil Young, Kendrick Lamar—to name a few.
 
-Nullam maximus erat augue, sagittis posuere quam tincidunt nec. Nullam nisi turpis, sagittis ut ante mattis, faucibus finibus metus. Sed non finibus augue, molestie faucibus lacus. Integer vulputate aliquet risus ut sagittis. Nam at blandit nulla, et posuere augue. Fusce est erat, imperdiet non dapibus eu, pellentesque at sem. Curabitur luctus, lectus at viverra pretium, lacus nisi dictum nisi, non mattis justo massa ut erat. Pellentesque congue vehicula elit, ut mattis odio tincidunt nec. Proin fringilla mi et sapien volutpat bibendum. Donec et risus eget tortor ultricies euismod. Mauris rhoncus dui id sagittis ultrices.
+There are, of course, many artists putting out heartening songs against the status quo that you may not have heard of; I say this mainly to give a shout-out to [The Homeless Gospel Choir](https://www.thehomelessgospelchoir.com/), whom I have nurtured quite a fondness for over the course of last year.
 
-Phasellus luctus nunc consequat, hendrerit ex at, blandit mauris. Suspendisse rutrum ornare turpis, in euismod sem venenatis nec. Phasellus at nisi sit amet arcu sagittis tincidunt at consectetur velit. Nulla consectetur ex nec erat dignissim laoreet. Fusce at euismod lectus, vitae maximus sem. Maecenas viverra nisi elit, eget dapibus mi congue mattis. Morbi condimentum lacus ut posuere lobortis. 
+I wouldn’t typically claim to have a “top song” for any period of time, but, *as it turns out*, I have one for 2017, and it is about the inexplicable horror residing in our White House, and it was written by a British dude.
+
+Frank Turner is certainly no stranger to [politically-driven music](https://www.youtube.com/watch?v=B1NyWbhCxZE&list=PLfG-wgHpBKHfyYQZy6qq8_G-z9Xg7Dx3I&index=41), and it’s his “The Sand in the Gears” that I hereby declare The Song of 2017.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/AZ6s8C88zzk?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+Meaning essentially the same thing as “throwing a wrench in the works”, the expression “throwing sand in the gears” alludes to asserting yourself in order to slow down or end something.
+
+After nearly a year in office, it’s all too easy to begin to normalize Donald Trump’s behavior. “Oh, that’s just Trump being Trump,” is a dangerous thought to entertain. Besides being a great song, the message in “The Sand in the Gears” is one I find incredibly important: We need to stay on alert. We need to stay angry. We need to stay ready to **resist**.
+
+As Frank puts it:
+
+<blockquote>
+So don't give into the hatred; don't give into the fear<br />
+Pour yourself a shot of anger to go with your beer<br />
+Let’s be the sand in the gears for the next four years
+</blockquote>
+
+On a final note, just as I did for [2016](/projects/soundtrack-of-2016), I used data collected by Spotify about my listening habits to compile my [Soundtrack of 2017](/projects/soundtrack-of-2017). Check it out, or don’t, I love you either way.
