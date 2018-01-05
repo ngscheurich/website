@@ -15,9 +15,6 @@ const Nav = ({ style, border }) => {
       <Link className={`link dim fw7 f6 f5-ns ${linkColor}-60`} to="/">
         ⬅ NGS
       </Link>
-      <Link className={`link dim f6 f5-ns ${linkColor}-60`} to="/journal">
-        Journal
-      </Link>
     </nav>
   );
 };
