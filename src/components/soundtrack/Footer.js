@@ -73,14 +73,14 @@ const Footer = ({
       <div className="mb3 mb0-ns" itemScope itemType="http://schema.org/Person">
         <a
           className="link dim white-80 bb b--white-30"
-          href="http://nick.scheurich.me"
+          href="https://www.ngscheurich.com/"
         >
           <span className="name">Nick</span>
         </a>{" "}
         made this.
         <a
           className="link dim white-80 bb b--white-30"
-          href="https://github.com/ngscheurich/nick.scheurich.me"
+          href={`https://github.com/ngscheurich/dot-com/blob/master/src/pages/projects/soundtrack-of-${year}.js`}
         >
           &lt;source&gt;
         </a>
