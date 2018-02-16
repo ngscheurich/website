@@ -17,6 +17,7 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-remark-copy-linked-files",
+          "gatsby-remark-prismjs",
           {
             resolve: "gatsby-remark-images",
             options: { maxWidth: 640, linkImagesToOriginal: false }
