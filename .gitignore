@@ -62,3 +62,6 @@ public
 yarn-error.log
 
 .tern-port
+
+# OS artifacts
+.DS_Store
