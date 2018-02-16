@@ -2,7 +2,7 @@
 path: "/journal/fresh-pots"
 date: "2018-02-16"
 title: "Fresh Pots!"
-description: "Always know where the fresh coffee‘s at."
+description: "Always know where the fresh coffee’s at."
 ---
 
 <figure>
@@ -16,7 +16,7 @@ description: "Always know where the fresh coffee‘s at."
     .
 </figure>
 
-So, I've had this idea kicking around for a while and, in the spirit of
+So, I’ve had this idea kicking around for a while and, in the spirit of
 making 2018 my Year of Just Fucking Releasing Stuff™, I decided to just
 build the thing and send it forth into the world.
   
@@ -45,7 +45,7 @@ strategies and libraries (especially
 [Devise](https://github.com/plataformatec/devise)).
 
 On the front end, I ended up just delivering plain old server-rendered
-pages, with some React sprinkled in where it made sense. While I‘m a React
+pages, with some React sprinkled in where it made sense. While I’m a React
 SPA fan, this decision allowed me to keep all my tests in a single suite.
 Navigation is intercepted with Turbolinks for a snappy user experience.
 
@@ -61,7 +61,7 @@ outlandish idea.
 I started Fresh Pots with the intention to allow it to be deployed for any
 organization, but I quickly realized that scoping it specifically to my
 workplace would cut out a ton of configuration options and admin screens,
-so that‘s what I ended up doing.
+so that’s what I ended up doing.
 
 I did end up publishing [an iOS
 app](https://itunes.apple.com/us/app/fresh-pots/id1330049929?ls=1&mt=8),
@@ -74,7 +74,7 @@ beforehand, I would have run across the following:
 > a different URL, which means the Visitable view controller’s URL would
 > change in place.
 
-Getting around this wasn't terribly difficult, and looked a little
+Getting around this wasn’t terribly difficult, and looked a little
 something like:
 
 ```javascript
@@ -98,25 +98,24 @@ export function useXHR(selector, nextURL) {
 
 Had I realized this limitation from the outset, I could have designed my
 forms with it in mind rather than having to go back and implement
-a workaround. Don't forget to <abbr title="Read the fucking
+a workaround. Don’t forget to <abbr title="Read the fucking
 manual">RTFM</abbr>!
 
 ## Conclusion
 
-I wasn‘t expecting a huge amount of buy-in from my co-workers, and am not
+I wasn’t expecting a huge amount of buy-in from my co-workers, and am not
 terribly surprised that Fresh Pots is currently hanging out at around 10
-users (excluding myself). In any case, it's nice to have something I've
+users (excluding myself). In any case, it’s nice to have something I’ve
 built out in the wild and being used.
 
 As the true goal of this project was to actually release an end product,
-I'm calling it a success.
+I’m calling it a success.
 
-If you're interested in the source code for Fresh Pots, you can find it on
+If you’re interested in the source code for Fresh Pots, you can find it on
 [GitHub](https://github.com/ngscheurich/fresh-pots). If you want to check
-out the app in production, it's on the web at [freshpotsapp.com](http://freshpotsapp.com)
+out the app in production, it’s on the web at [freshpotsapp.com](http://freshpotsapp.com)
 and on the [App Store](https://itunes.apple.com/us/app/fresh-pots/id1330049929?ls=1&mt=8);
-just keep in mind that there isn't much to see unless you're an Advocate
+just keep in mind that there isn’t much to see unless you’re an Advocate
 employee or are just **super** into signup pages.
 
 Onward, to the next thing!
-
