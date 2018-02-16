@@ -12,8 +12,12 @@ const Nav = ({ style, border }) => {
       className={`post__nav ph4 pv3 flex justify-between ttu tracked ${bgClasses} ${borderClasses}`}
       role="navigation"
     >
-      <Link className={`link dim fw7 f6 f5-ns ${linkColor}-60`} to="/">
-        ⬅ NGS
+      <Link
+        className={`link dim fw7 f6 f5-ns ${linkColor}-60`}
+        style={{ fontFamily: "Anonymous Pro" }}
+        to="/"
+      >
+        ⬅ Back
       </Link>
     </nav>
   );

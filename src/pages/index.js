@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Bio from "../components/index/Bio";
-import ProjectList from "../components/index/ProjectList";
+import Bio from "../components/shared/Bio";
+import ProjectList from "../components/shared/ProjectList";
 import BlogPostList from "../components/index/PostSummaryList";
 
 import tachyons from "tachyons";
@@ -24,6 +24,7 @@ export default ({ data }) => {
           { name: "og:image", content: avatar }
         ]}
       />
+
       <div className="index black-80 flex-l w-100-l vh-100-l fixed-l">
         <div className="pa4 pa5-ns bb bb-0-l br-l b--black-10">
           <header className="measure pb3" role="banner">

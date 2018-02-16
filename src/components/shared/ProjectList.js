@@ -4,7 +4,7 @@ import ProjectExternal from "./ProjectExternal";
 
 export default () => (
   <div>
-    <h2 className="f4 ttu">Projects</h2>
+    <h2 className="f4 ttu">Selected Works</h2>
 
     <Project
       url="/projects/soundtrack-of-2017"

@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Faustina:400,400i,700|Playfair+Display:700");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Faustina:400,400i,700|Montserrat:700");
+
+body {
+  background-color: white;
+  font-family: "Anonymous Pro", monospace;
+}
 
 .aa {
   -webkit-font-smoothing: antialiased;
@@ -14,13 +19,18 @@
   max-width: 40em;
 }
 
-.post__nav {
-  font-family: "Anonymous Pro", monospace;
+.post__title,
+.post h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
 }
 
-.post__title {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+.post h2 {
+  margin: 2rem 0 0;
+}
+
+.post p:not(:first-of-type) {
+  margin-top: 0;
 }
 
 .post__content figure {
@@ -46,10 +56,24 @@
   color: rgba(0, 0, 0, 0.6);
   opacity: 1;
   text-decoration: none;
-  transition: color 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
 }
 
 .post__content a:hover,
 .post__content a:focus {
   opacity: 0.5;
+}
+
+.post a.gatsby-resp-image-link {
+  border-bottom: 0;
+}
+
+.post code {
+  font-family: "Anonymous Pro";
+}
+
+.gatsby-highlight {
+  border-radius: 0.125rem;
+  font-size: 0.9rem;
+  overflow: auto;
 }

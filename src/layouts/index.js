@@ -4,6 +4,7 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 import favicon from "../static/favicon.ico";
+import "prism-theme-one-dark/prism-onedark.css";
 
 const title = "The Personal Website of Mr. N. G. Scheurich";
 
