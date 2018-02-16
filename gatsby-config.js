@@ -20,7 +20,7 @@ module.exports = {
           "gatsby-remark-prismjs",
           {
             resolve: "gatsby-remark-images",
-            options: { maxWidth: 640, linkImagesToOriginal: false }
+            options: { maxWidth: 960 }
           }
         ]
       }
