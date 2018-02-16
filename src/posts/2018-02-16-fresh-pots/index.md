@@ -101,6 +101,10 @@ forms with it in mind rather than having to go back and implement
 a workaround. Don’t forget to <abbr title="Read the fucking
 manual">RTFM</abbr>!
 
+## “Hey, is the name a reference to that…”
+
+[Yep.](https://www.youtube.com/watch?v=fhdCslFcKFU)
+
 ## Conclusion
 
 I wasn’t expecting a huge amount of buy-in from my co-workers, and am not
