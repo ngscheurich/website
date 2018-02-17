@@ -34,7 +34,7 @@ where they start a brew and to quickly scan the freshness of available pots.
 
 ## Technology
 
-I built this app pretty fast and loose, in the interest of quickly
+I Fresh Pots pretty fast and loose, in the interest of quickly
 bringing it to a satisfactory level of completion and getting it out the
 door.
 
