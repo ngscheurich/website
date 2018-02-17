@@ -50,7 +50,7 @@ SPA fan, this decision allowed me to keep all my tests in a single suite.
 Navigation is intercepted with Turbolinks for a snappy user experience.
 
 Because, what would any toy app be without some experimentation, I decided
-early on that I would try and get an iOS app out the door using the
+early on that I would try and generate the bulk of an iOS app using the
 [native iOS adapter for Turbolinks
 5](https://github.com/turbolinks/turbolinks-ios). Since I was already
 using the Turbolinks web adapter, this didnt seem like a terribly
@@ -120,6 +120,6 @@ If you’re interested in the source code for Fresh Pots, you can find it on
 out the app in production, it’s on the web at [freshpotsapp.com](http://freshpotsapp.com)
 and on the [App Store](https://itunes.apple.com/us/app/fresh-pots/id1330049929?ls=1&mt=8);
 just keep in mind that there isn’t much to see unless you’re an Advocate
-employee or are just **super** into signup pages.
+employee or are just *super* into signup pages.
 
 Onward, to the next thing!
