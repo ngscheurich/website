@@ -34,7 +34,7 @@ where they start a brew and to quickly scan the freshness of available pots.
 
 ## Technology
 
-I Fresh Pots pretty fast and loose, in the interest of quickly
+I built Fresh Pots pretty fast and loose, in the interest of quickly
 bringing it to a satisfactory level of completion and getting it out the
 door.
 
@@ -44,10 +44,10 @@ days, I chose Ruby on Rails due to my familiarity with certain Ruby
 strategies and libraries (especially
 [Devise](https://github.com/plataformatec/devise)).
 
-On the front end, I ended up just delivering plain old server-rendered
-pages, with some React sprinkled in where it made sense. While I’m a React
+On the front end, I ended up just delivering plain, old server-rendered
+pages—with some React sprinkled in where it made sense. While I’m a React
 SPA fan, this decision allowed me to keep all my tests in a single suite.
-Navigation is intercepted with Turbolinks for a snappy user experience.
+Navigation is intercepted by Turbolinks for a snappy user experience.
 
 Because, what would any toy app be without some experimentation, I decided
 early on that I would try and generate the bulk of an iOS app using the
