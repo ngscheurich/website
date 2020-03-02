@@ -1,11 +1,14 @@
 html {
-  font: 300 18px/1.5 "IBM Plex Mono", monospace;
+  font: 300 16px/1.5 "IBM Plex Mono", monospace;
 }
 
 body {
   background-color: rgba(250, 249, 242);
   color: rgba(0, 0, 0, 0.8);
   margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -25,20 +28,10 @@ a:focus {
   color: rgba(0, 0, 0, 0.4);
 }
 
-[itemscope] {
-  margin: auto;
-  padding: 4rem;
-  max-width: 60rem;
-}
-
 [itemprop="name"] {
   font: 4rem/1.1 "DM Serif Display", serif;
   margin-top: 0;
-}
-
-main,
-aside {
-  padding-left: 2rem;
+  max-width: 20rem;
 }
 
 main {
@@ -70,7 +63,6 @@ h2 {
 
 dl {
   max-width: 33rem;
-  display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 1.5rem;
   font-size: 0.9rem;
@@ -81,7 +73,7 @@ dt {
 }
 
 dd {
-  margin-left: 0;
+  margin: 0 0 1.5rem 0;
 }
 
 a[href$="blackguard"]::before {
@@ -102,4 +94,27 @@ a[href$="twine-starter"]::before {
 
 a[href$="metallum"]::before {
   content: "💀 ";
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    padding: 4rem;
+  }
+
+  main,
+  aside {
+    padding-left: 2rem;
+  }
+
+  dl {
+    display: grid;
+  }
+
+  dd {
+    margin-bottom: 0;
+  }
 }
