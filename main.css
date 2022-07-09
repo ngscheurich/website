@@ -80,20 +80,24 @@ a[href$="blackguard"]::before {
   content: "⚔️ ";
 }
 
-a[href$="loverboy"]::before {
-  content: "💘 ";
+a[href$="edeex"]::before {
+  content: "📝 ";
 }
 
-a[href$="fresh-pots"]::before {
-  content: "☕ ";
+a[href$="dice_magick"]::before {
+  content: "🎲 ";
+}
+
+a[href$="systems"]::before {
+  content: "⚙️ ";
 }
 
 a[href$="twine-starter"]::before {
   content: "📖 ";
 }
 
-a[href$="metallum"]::before {
-  content: "💀 ";
+a[href$="mutiny"]::before {
+  content: "🚫 ";
 }
 
 @media only screen and (min-width: 768px) {
